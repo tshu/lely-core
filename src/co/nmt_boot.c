@@ -45,13 +45,13 @@
 
 #ifndef LELY_CO_NMT_BOOT_SDO_RETRY
 /// The number of times an SDO request is retried after a timeout.
-#define LELY_CO_NMT_BOOT_SDO_RETRY 3
+#define LELY_CO_NMT_BOOT_SDO_RETRY 10 //originally 3
 #endif
 
 #if !LELY_NO_CO_NG
 #ifndef LELY_CO_NMT_BOOT_RTR_TIMEOUT
 /// The timeout (in milliseconds) after sending a node guarding RTR.
-#define LELY_CO_NMT_BOOT_RTR_TIMEOUT 100
+#define LELY_CO_NMT_BOOT_RTR_TIMEOUT 1000 //originally 100
 #endif
 #endif
 

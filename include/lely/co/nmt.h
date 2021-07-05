@@ -30,7 +30,7 @@
  * The default SDO timeout (in milliseconds) for the NMT 'boot slave' and
  * 'check configuration' processes.
  */
-#define LELY_CO_NMT_TIMEOUT 100
+#define LELY_CO_NMT_TIMEOUT 1000 //originally 100 -TS
 #endif
 
 /// The CAN identifier used for NMT commands.

@@ -27,12 +27,12 @@
 
 #ifndef LELY_CO_LSS_INHIBIT
 /// The default LSS inhibit time (in multiples of 100 microseconds).
-#define LELY_CO_LSS_INHIBIT 10
+#define LELY_CO_LSS_INHIBIT 30 //originally 10
 #endif
 
 #ifndef LELY_CO_LSS_TIMEOUT
 /// The default LSS timeout (in milliseconds).
-#define LELY_CO_LSS_TIMEOUT 100
+#define LELY_CO_LSS_TIMEOUT 300 //originally 100
 #endif
 
 /// The CAN identifier used for LSS by the master (1) or the slave (0).
